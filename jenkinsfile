@@ -12,6 +12,7 @@ pipeline {
         stage('Install') {
             steps {
                 // Installer les dépendances Node.js
+                //test installation package
                 sh 'npm install'
             }
         }
